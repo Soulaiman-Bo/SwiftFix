@@ -298,7 +298,7 @@ a:focus {
 
 .slider_section .detail-box {
   padding-bottom: 90px;
-  
+
 }
 
 
@@ -420,6 +420,10 @@ a:focus {
   grid-column-gap: 5px;
   grid-row-gap: 0px;
 }
+
+
+
+
 
 .about-main {
   height: 80vh;
@@ -707,9 +711,11 @@ a:focus {
   background-color: transparent;
   color: #0355cc;
 }
+
 .client_section {
   padding-block: 5rem;
 }
+
 .client_section .heading_container {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -992,6 +998,19 @@ a:focus {
 
 .footer_section a {
   color: inherit;
+}
+
+@media (max-width:850px) {
+
+  .contact_sectionOne {
+    flex-direction: column;
+  }
+
+  .about_section {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+  }
 }
 
 
