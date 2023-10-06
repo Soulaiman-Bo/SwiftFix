@@ -1000,6 +1000,10 @@ a:focus {
   color: inherit;
 }
 
+.title_card {
+  font-weight: bold;
+}
+
 @media (max-width:850px) {
 
   .contact_sectionOne {
